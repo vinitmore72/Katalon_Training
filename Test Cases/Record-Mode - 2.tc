@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>-07-1-26</description>
+   <name>Record-Mode - 2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>66a2c5c7-1b67-4277-bbe4-f8ead3f7693d</testCaseGuid>
+</TestCaseEntity>
