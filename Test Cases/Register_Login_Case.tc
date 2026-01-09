@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Registeration for Login</description>
+   <name>Register_Login_Case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>959da410-ef89-44a2-b4a3-0bfd7b1dd543</testCaseGuid>
+</TestCaseEntity>

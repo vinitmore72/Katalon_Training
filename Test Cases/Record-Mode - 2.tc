@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>66a2c5c7-1b67-4277-bbe4-f8ead3f7693d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>700730e6-fc17-4374-b785-c746538b1cb3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demoqa.com/elements'</defaultValue>
+      <description></description>
+      <id>700730e6-fc17-4374-b785-c746538b1cb3</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
 </TestCaseEntity>
