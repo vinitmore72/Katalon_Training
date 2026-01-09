@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>bdcc6992-63c0-4b5a-8e99-cea7b84fa2a3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b9303def-7702-4669-a3b6-b709eea22116</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demoqa.com/elements'</defaultValue>
+      <description></description>
+      <id>b9303def-7702-4669-a3b6-b709eea22116</id>
+      <masked>false</masked>
+      <name>URRL</name>
+   </variable>
 </TestCaseEntity>

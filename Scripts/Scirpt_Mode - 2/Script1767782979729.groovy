@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demoqa.com/elements')
+WebUI.navigateToUrl(URRL)
 
 WebUI.click(findTestObject('Object Repository/Script_Mode/Page_DEMOQA/span_Dynamic Properties'))
 
@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Object Repository/Script_Mode/Page_DEMOQA/span_Uploa
 
 WebUI.doubleClick(findTestObject('Object Repository/Script_Mode/Page_DEMOQA/li_Buttons'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Script_Mode/Page_DEMOQA/li_Buttons'),FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Script_Mode/Page_DEMOQA/li_Buttons'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Script_Mode/Page_DEMOQA/button_Right Click Me'), FailureHandling.CONTINUE_ON_FAILURE)
 
