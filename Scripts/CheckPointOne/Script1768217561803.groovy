@@ -17,22 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://demoqa.com/elements')
-
-WebUI.click(findTestObject('Manual-1/Page_DEMOQA/li_Check Box'))
-
-WebUI.check(findTestObject('Manual-1/Page_DEMOQA/svg_Check Box_rct-icon rct-icon-uncheck'), FailureHandling.STOP_ON_FAILURE)
-
-
-WebUI.click(findTestObject('Manual-1/Page_DEMOQA/span_home'))
-
-WebUI.click(findTestObject('Manual-1/Page_1767791876706/span_home'))
-
-WebUI.click(findTestObject('Manual-1/Page_DEMOQA/li_Broken Links - Images'))
-
-WebUI.click(findTestObject('Manual-1/Page_DEMOQA/a_Click Here for Broken Link'))
-
-WebUI.closeBrowser()
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/CheckpointOne'), true)
 

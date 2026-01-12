@@ -6,12 +6,12 @@
    <elementGuidId>30547911-2a96-463e-b93a-468f00bac112</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//iframe[@name='a-qplxj1zg1wng']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>iframe[name=&quot;a-qplxj1zg1wng&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='g-recaptcha']/div/div/iframe</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

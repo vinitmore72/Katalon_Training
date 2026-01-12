@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div[2]/div/div[6]/div/div[3]/h5</value>
+         <value>//*/text()[normalize-space(.)='Book Store Application']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

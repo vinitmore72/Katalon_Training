@@ -4,17 +4,27 @@
    <name>katalon-div_id(katalon-spy_elementInfoDiv)</name>
    <tag></tag>
    <elementGuidId>c7d3853e-f95f-46ec-bda3-8c175e780fa0</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#katalon-spy_elementInfoDiv</value>
+         <value>#katalon-spy_elementInfoDiv&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//katalon-div[@id='katalon-spy_elementInfoDiv']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'katalon-spy_elementInfoDiv' and (text() = 'id(&quot;katalon-spy_elementInfoDiv&quot;)' or . = 'id(&quot;katalon-spy_elementInfoDiv&quot;)')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +39,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>katalon-div</value>
-      <webElementGuid>279e4723-6b60-4df4-ae13-43089772e4fb</webElementGuid>
+      <webElementGuid>95f7019f-8d5f-4a26-92bd-4a4b618daa21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>katalon-spy_elementInfoDiv</value>
-      <webElementGuid>e3d8efa8-ad47-4752-8e69-c0562d8a1697</webElementGuid>
+      <webElementGuid>029409f4-4e26-4d97-b1bf-8b049865aba8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>id(&quot;katalon-spy_elementInfoDiv&quot;)</value>
-      <webElementGuid>d1035ee8-e247-432d-9f64-af63708db3ac</webElementGuid>
+      <webElementGuid>00226a79-5442-4645-ac14-0941d0fb4331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +63,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;katalon-spy_elementInfoDiv&quot;)</value>
-      <webElementGuid>d1b9d124-9fa0-4f4c-8b53-6fd65667c02b</webElementGuid>
+      <webElementGuid>ecd63ac8-0de4-46ca-bc8d-4b635e72ef87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
+      <name>Element inside cross-origin iframe. Copy Selectors by right click on element or open iframe src url in new tab.</name>
       <type>Main</type>
-      <value>Object Repository/Login_register/Page_DEMOQA/iframe_Password_a-qplxj1zg1wng</value>
-      <webElementGuid>2c37db83-ab9c-40e9-839f-df34f7aa6cb3</webElementGuid>
+      <value></value>
+      <webElementGuid>a078fca4-1866-4229-85f0-7a5b0a443b90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +79,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Login_register/Page_1767945140748/iframe_Password_a-qplxj1zg1wng</value>
-      <webElementGuid>b26d3f5e-40b0-48d7-96f2-d51983b587a1</webElementGuid>
+      <webElementGuid>89f1fd7e-fa0f-4216-80ca-8d7bdfc084de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//katalon-div[@id='katalon-spy_elementInfoDiv']</value>
-      <webElementGuid>ae09b42b-5276-4ddd-917a-908bc6eff067</webElementGuid>
+      <webElementGuid>c7e372cc-9095-4eeb-ae99-acc7d4d54eef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//katalon-div[@id='katalon']/katalon-div</value>
-      <webElementGuid>ac3a0d37-8b3a-46f8-98da-c54cd2006f8b</webElementGuid>
+      <webElementGuid>50cfa53e-1d8a-47a2-8199-dc9d3460ba98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms'])[1]/following::katalon-div[2]</value>
-      <webElementGuid>0c385b4c-eb90-411e-818d-da630f208ed5</webElementGuid>
+      <webElementGuid>bb61df05-7890-49f0-8fe9-2dac615c7fea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy'])[1]/following::katalon-div[2]</value>
-      <webElementGuid>41066e0b-c2cb-46dd-8816-c471d47b14b5</webElementGuid>
+      <webElementGuid>9587d837-11a7-473b-b746-7489bfcfc545</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='id(&quot;katalon-spy_elementInfoDiv&quot;)']/parent::*</value>
-      <webElementGuid>e0ff1f4a-ac4e-4dd3-9128-c45addc55801</webElementGuid>
+      <webElementGuid>fb343c6b-ad83-4690-868b-7854f74e3c22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//katalon-div/katalon-div</value>
-      <webElementGuid>bba6bfbc-5cab-4085-ae7e-bacd4198efe7</webElementGuid>
+      <webElementGuid>576072e7-7ec1-4b24-a22f-a00519961e9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +135,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//katalon-div[@id = 'katalon-spy_elementInfoDiv' and (text() = 'id(&quot;katalon-spy_elementInfoDiv&quot;)' or . = 'id(&quot;katalon-spy_elementInfoDiv&quot;)')]</value>
-      <webElementGuid>9cdb1b8f-baed-4502-92f1-b77037052fba</webElementGuid>
+      <webElementGuid>1a8bbe27-efcf-4b36-8330-d6ec7633dcc6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
