@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Day5</description>
+   <name>Alert</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b7abc792-69ef-4d33-aac7-f120abe16500</testCaseGuid>
+</TestCaseEntity>

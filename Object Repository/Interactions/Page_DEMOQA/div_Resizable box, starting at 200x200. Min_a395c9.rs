@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Resizable box, starting at 200x200. Min_a395c9</name>
+   <tag></tag>
+   <elementGuidId>6d676572-b02a-4ef8-9bbf-a51e0248308f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='resizableBoxWithRestriction']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Resizable box, starting at 200x200. Min size is 150x150, max is 500x300.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f7270a6d-ef7c-407d-af2c-676f79e35be7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>5215be4a-9f8c-4fbd-ad9b-19a9321febd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Resizable box, starting at 200x200. Min size is 150x150, max is 500x300.</value>
+      <webElementGuid>8ffe73e1-735b-4f81-a46c-4d423e87e8c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;resizableBoxWithRestriction&quot;)/div[@class=&quot;text&quot;]</value>
+      <webElementGuid>8a7acdb1-c039-4d9e-9b2f-d8a29fa54385</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='resizableBoxWithRestriction']/div</value>
+      <webElementGuid>f2e4a985-5a5c-4720-9f66-289ae60ee272</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resizable'])[2]/following::div[3]</value>
+      <webElementGuid>5212e64a-a139-41fd-b55a-7e8b51eddb23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Store API'])[1]/following::div[7]</value>
+      <webElementGuid>1ec94cce-d6af-4a72-86ed-e63a05bf3eb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resizable'])[3]/preceding::div[1]</value>
+      <webElementGuid>c1fd5b3e-e99e-4651-b190-86e9c9377828</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.'])[1]/preceding::div[16]</value>
+      <webElementGuid>9c4a149f-cbd8-4b55-97b0-2892a266a183</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Resizable box, starting at 200x200. Min size is 150x150, max is 500x300.']/parent::*</value>
+      <webElementGuid>6d4a2f78-a0e0-49b2-ad53-48c7428e2c01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div</value>
+      <webElementGuid>a7e4fbf2-a4c9-40e9-befa-536b14487bc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Resizable box, starting at 200x200. Min size is 150x150, max is 500x300.' or . = 'Resizable box, starting at 200x200. Min size is 150x150, max is 500x300.')]</value>
+      <webElementGuid>9d15fc25-5cb9-43b8-af6f-50500e057aab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_I will always stick to the centerMy cur_c1659a</name>
+   <tag></tag>
+   <elementGuidId>efcf5366-a0c0-41b5-a92d-614d99115c4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.cursor-style-container.mt-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='draggableExample-tabpane-cursorStyle']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;I will always stick to the centerMy cursor is at top leftMy cursor is at bottom&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7c3bee20-a825-4b24-a771-69fcceee78ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cursor-style-container mt-4</value>
+      <webElementGuid>e8be612b-addc-4b2a-81b0-9924193741dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I will always stick to the centerMy cursor is at top leftMy cursor is at bottom</value>
+      <webElementGuid>028b9702-28f7-4076-ab2b-4cbc7259dcd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;draggableExample-tabpane-cursorStyle&quot;)/div[@class=&quot;cursor-style-container mt-4&quot;]</value>
+      <webElementGuid>ec499ee1-4d8c-4b4c-b005-df16bc253aeb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='draggableExample-tabpane-cursorStyle']/div</value>
+      <webElementGuid>934a2f1c-3d7b-4adb-b96d-aa3cc21452f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[4]/div</value>
+      <webElementGuid>d88e0aab-24fa-4d8a-9613-eab01a41bb15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'I will always stick to the centerMy cursor is at top leftMy cursor is at bottom' or . = 'I will always stick to the centerMy cursor is at top leftMy cursor is at bottom')]</value>
+      <webElementGuid>f37757b0-0514-416b-8a78-8c6025ad5ac7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
