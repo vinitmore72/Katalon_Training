@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>PUTBOOKS</name>
+   <name>GETUSER</name>
    <tag></tag>
-   <elementGuidId>3f3cdf16-667f-491d-bbcb-1ab0bcb674c2</elementGuidId>
+   <elementGuidId>816b1cfe-c763-4063-9f46-e04b7a6638f9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -11,17 +11,17 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InZpbml0bW9yZTc1IiwicGFzc3dvcmQiOiJWaW5pdDk5QCIsImlhdCI6MTc2ODg4Nzg1MH0.lzq7n4RSTa2w2mEdKcleHs5dkZJWA3J2GV_SGFVWNhI</value>
+            <value>${token}</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
-   <followRedirects>false</followRedirects>
+   <followRedirects>true</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;userId\&quot;: \&quot;90115b6f-bad4-449e-8a90-aefb1685d032\&quot;,\n  \&quot;isbn\&quot;: \&quot;9781491950296\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -32,22 +32,22 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>b7adcc09-c09c-4ad0-a2c5-a02c7d3080af</webElementGuid>
+      <webElementGuid>d3f8144e-4b90-4372-89ea-d60b7089bfa9</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InZpbml0bW9yZTc1IiwicGFzc3dvcmQiOiJWaW5pdDk5QCIsImlhdCI6MTc2ODg4Nzg1MH0.lzq7n4RSTa2w2mEdKcleHs5dkZJWA3J2GV_SGFVWNhI</value>
-      <webElementGuid>2ce04a3b-1fd6-4c26-8a7a-bac87aa3fecb</webElementGuid>
+      <value>Bearer ${token}</value>
+      <webElementGuid>78207ae1-996f-4d6d-9287-44e9e1f9ea8f</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.4.3</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://demoqa.com/BookStore/v1/Books/9781449331818</restUrl>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>https://demoqa.com/Account/v1/User/${userId}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -56,6 +56,13 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ef07c522-b361-48df-a92d-633f83f1271a</id>
+      <masked>false</masked>
+      <name>userid</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
