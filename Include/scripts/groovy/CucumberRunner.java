@@ -4,7 +4,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features",
+        features = "Include/features",
         glue = {"stepdefinitions"},
         plugin = {
                 "pretty",
@@ -13,5 +13,5 @@ import cucumber.api.junit.Cucumber;
         },
         monochrome = true
 )
-public class TestRunner {
+public class CucumberRunner{
 }

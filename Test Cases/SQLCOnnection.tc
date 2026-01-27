@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CheckPointOne</name>
+   <name>SQLCOnnection</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>94e39efc-4cec-408a-a5de-364e88efc013</testCaseGuid>
+   <testCaseGuid>a76891a6-abcd-4885-995c-cad61fd5832a</testCaseGuid>
 </TestCaseEntity>

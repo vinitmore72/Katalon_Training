@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/browser-windows')
 
-WebUI.click(findTestObject('Object Repository/Windows/Page_DEMOQA/button_New Tab'))
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Windows/Page_DEMOQA/button_New Tab'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.switchToWindowTitle('')
-
-WebUI.delay(5)
 
 WebUI.verifyTextPresent('This is a sample page', false)
 
@@ -35,7 +35,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/browser-windows')
 
-WebUI.click(findTestObject('Object Repository/Windows/Page_DEMOQA/button_New Window'))
+WebUI.click(findTestObject('Object Repository/Windows/Page_DEMOQA/button_New Window'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5)
 
@@ -47,7 +47,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/browser-windows')
 
-WebUI.click(findTestObject('Object Repository/Windows/Page_DEMOQA/button_New Window Message'))
+WebUI.click(findTestObject('Object Repository/Windows/Page_DEMOQA/button_New Window Message'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
 
 WebUI.switchToWindowIndex(1)
 

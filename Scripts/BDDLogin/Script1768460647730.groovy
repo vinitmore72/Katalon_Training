@@ -17,13 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/Login.feature')
+not_run: CucumberKW.runFeatureFile('Include/features/Login1.feature')
 
-CucumberKW.runFeatureFolder('Include/features')
+CucumberKW.runFeatureFolder('Include/features/Login1.feature')
 
-CucumberKW.runFeatureFileWithTags('Include/features/Login.feature', ((['regression', 'smoke']) as String[]))
+CucumberKW.runFeatureFileWithTags('Include/features/Login1.feature', ((['regression', 'smoke']) as String[]))
 
-CucumberKW.runWithCucumberRunner(null)
-
-CucumberKW.runWithCucumberRunner(null)
+CucumberKW.runWithCucumberRunner(CucumberRunner.class)
 

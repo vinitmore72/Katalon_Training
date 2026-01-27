@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='demo-tabpane-list']/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Store API'])[1]/following::div[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
